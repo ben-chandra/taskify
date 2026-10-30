@@ -1,0 +1,14 @@
+{
+  "name": "taskify",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run start:dev --workspace backend",
+    "dev:frontend": "npm run start --workspace frontend",
+    "test:backend": "npm test --workspace backend",
+    "test:frontend": "npm test --workspace frontend"
+  }
+}
